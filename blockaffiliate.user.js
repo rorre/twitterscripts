@@ -33,7 +33,7 @@ class QueueGarbage {
 }
 
 const postCache = new QueueGarbage(20);
-const DOMAINS = ["shope.ee"]
+const DOMAINS = ["shope.ee", "tokopedia.link", "wa.link"]
 const THREAD_HEADERS = [new RegExp("rekomendasi[^]*thread", "i"), new RegExp("kumpulan[^]*thread", "i")]
 
 const BLOCK_HTML = `
